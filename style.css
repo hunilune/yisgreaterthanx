@@ -16,12 +16,11 @@
 
 /* Import fonts */
 @font-face {
-  font-family: "PP Mondwest";
-  src: url("https://cdn.glitch.global/a85c8799-bfb8-4e98-b860-16df1a7ebb2a/PPMondwest-Regular.otf?v=1683991628278");
+  font-family: ;
 }
 
 body {
-  font-family: "PP Mondwest", serif;
+  font-family: Times New Roman, serif;
   font-size: 100px;
   overflow-y: hidden;
 }
