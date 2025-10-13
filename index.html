@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(window).resize(function () {
+        /*Changes background colour according to brwoser width*/
+        if ($(this).width() < 600) {
+          $("body").css("background-color", "black");
+        } else {
+          $("body").css("background-color", "white");
+        }
+      });
+    });
+  </script>
+  <style>
+    div {
+      padding: 25px;
+      margin: 50px;
+    }
+  </style>
+
+  <!-- Imports the webpage's stylesheet -->
+  <link rel="stylesheet" href="/style.css" />
+
+  <body>
+    <div></div>
+    <title>Y>x</title>
+  </body>
+</html>
