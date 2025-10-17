@@ -3,7 +3,6 @@
   div:before {
     content: "Woman";
     color: white;
-    font: Arial;
   }
 }
 
@@ -12,14 +11,16 @@
   div:before {
     content: "Man";
     color: black;
-    font: Arial;
   }
 }
 
 /* Import fonts */
+@font-face {
+  font-family: ;
+}
 
 body {
-  font-family: Arial;
-  font-size: 75px;
+  font-family: Times, serif;
+  font-size: 100px;
   overflow-y: hidden;
 }
