@@ -14,11 +14,6 @@
   }
 }
 
-/* Import fonts */
-@font-face {
-  font-family: ;
-}
-
 body {
   font-family: Times, serif;
   font-size: 100px;
