@@ -2,7 +2,7 @@
 @media screen and (max-width: 600px) {
   div:before {
     content: "Woman";
-    color: #FFFF;
+    color: white;
   }
 }
 
@@ -10,7 +10,7 @@
 @media screen and (min-width: 600px) {
   div:before {
     content: "Man";
-    color: #0000;
+    color: black;
   }
 }
 
