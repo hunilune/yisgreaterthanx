@@ -14,6 +14,11 @@
   }
 }
 
+@font-face {
+      font-family: 'Social';
+      src: url('ABCSocialCyrillic-Regular-Trial.woff') format('woff');
+    }
+
 body {
   font-family: 'Social', sans-serif;
   font-size: 100px;
